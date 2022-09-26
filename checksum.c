@@ -76,7 +76,6 @@ int main()
         scanf("%s", t[i]);
     }
     strcpy(g, t[0]);
-    printf("%s\n", g);
     binadd();
-    printf("%s\n", g);
+    printf("ans : %s\n", g);
 }
